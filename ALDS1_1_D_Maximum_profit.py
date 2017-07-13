@@ -1,8 +1,7 @@
 import sys
 
 n = int(input())
-r = []
-[r.append(int(input())) for i in range(n)]
+r = [int(input()) for _ in range(n)]
 
 max_diff = -sys.maxsize
 min_val = r[0]
